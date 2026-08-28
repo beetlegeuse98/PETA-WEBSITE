@@ -1,5 +1,4 @@
-<Style>
-{
+* {
     box-sizing: border-box;
 }
 
@@ -7,7 +6,7 @@ body {
     margin: 0;
     background-color: #B8CDE3;
     color: #101C36;
-    font-family: "Courier New" monospace, 
+    font-family: "Courier New", Courier, monospace;
 }
 
 header {
@@ -16,7 +15,7 @@ header {
     text-align: center;
     padding: 35px 20px;
     border: 8px solid #101C36;
-    box-shadow: 8px  #3F6387;
+    box-shadow: 8px 8px 0px #3F6387;
     text-shadow: 2px 2px red;
 }
 
@@ -26,26 +25,16 @@ header h1 {
     letter-spacing: 4px;
     text-transform: uppercase;
     text-shadow: 5px 0px #000080;
-
 }
 
-header 
-p {
+header p {
     font-size: 15px;
     margin-top: 20px;
-    
-
 }
 
 p {
-
-color: black;
-
-}
-
-h2 {
-  color: white;
-  text-shadow: 1px 1px 2px blue, 0 0 5px red;
+    color: black;
+    line-height: 1.8;
 }
 
 nav {
@@ -70,20 +59,17 @@ nav a:hover {
     box-shadow: 4px 4px 0px #E8F1F8;
 }
 
-
 hr {
     border: none;
     border-top: 6px dashed #1E3A5F;
     margin: 35px 0;
 }
 
-
 main {
     max-width: 1100px;
     margin: 40px auto;
     padding: 20px;
 }
-
 
 h2 {
     background-color: #E8F1F8;
@@ -95,12 +81,6 @@ h2 {
     letter-spacing: 2px;
     font-size: 23px;
 }
-
-
-p {
-    line-height: 1.8;
-}
-
 
 ul {
     background-color: #E8F1F8;
@@ -114,7 +94,6 @@ li {
     line-height: 1.7;
 }
 
-
 table {
     width: 100%;
     border-collapse: collapse;
@@ -123,13 +102,11 @@ table {
     box-shadow: 10px 10px 0px #3F6387;
 }
 
-th:
-td {
+th, td {
     border: 4px solid #101C36;
     padding: 16px;
     text-align: center;
 }
-
 
 th {
     background-color: #1E3A5F;
@@ -137,20 +114,10 @@ th {
     text-transform: uppercase;
 }
 
-
-tr:
- td {
+td {
     background-color: #1E3A5F;
     font-weight: bold;
 }
-
-
-tr:
- td {
-    background-color: Navy Blue;
-}
-
-
 
 table img {
     display: block;
@@ -161,7 +128,6 @@ table img {
     box-shadow: 7px 7px 0px #3F6387;
 }
 
-
 footer p {
     margin-top: 60px;
     padding: 30px;
@@ -169,11 +135,6 @@ footer p {
     color: #FFFFF0;
     text-align: center;
     border-top: 8px solid #1E3A5F;
-}
-
-footer p {
-    margin: 0;
     font-size: 13px;
 }
 
-</style>
