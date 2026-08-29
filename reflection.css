@@ -23,7 +23,7 @@
    color: #1a1122;
    padding: 24px;
    display: flex;
-   flex-direction: coloumn;
+   flex-direction: column;
    align-items: center;
    min-height: 100vh;
    width: 100%;
