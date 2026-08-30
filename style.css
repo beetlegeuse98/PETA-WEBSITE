@@ -350,3 +350,203 @@ nav a:hover {
   font-weight: bold;
   color: #c93b2b;
 }
+
+.literary-theme .sub-card {
+  background-color: #fcf8f2; 
+  border: 4px solid #1a1122;
+  box-shadow: 8px 8px 0px #1a1122;
+  position: relative;
+  background-image: linear-gradient(#e8dfd1 1px, transparent 1px);
+  background-size: 100% 28px;
+}
+
+.literary-theme .sub-card-header {
+  background-color: #8b5a2b;
+  color: #fcf8f2;
+  border-bottom: 4px solid #1a1122;
+}
+
+.literary-theme .sub-card-body {
+  padding: 32px 24px 24px 56px;
+  position: relative;
+}
+
+.literary-theme .sub-card-body::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 40px;
+  width: 2px;
+  height: 100%;
+  background-color: #cc7439;
+  border-right: 1px solid #cc7439;
+}
+
+.literary-theme .sub-card-body p {
+  color: #2b1f1d;
+  line-height: 28px;
+  margin-bottom: 28px;
+  font-size: 14px;
+}
+
+.literary-theme .sub-card-body h2 {
+  color: #1a1122;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 18px;
+  margin-bottom: 28px;
+  letter-spacing: 1px;
+  background-color: #f6b531;
+  display: inline-block;
+  padding: 4px 12px;
+  border: 3px solid #1a1122;
+  box-shadow: 4px 4px 0px #1a1122;
+}
+
+.literary-theme .media-wrapper {
+  margin: 20px 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-right: 32px; 
+}
+
+.literary-theme video,
+.literary-theme img {
+  width: 78% !important;
+  height: auto !important;
+  max-width: 100%;
+  border: 4px solid #1a1122 !important;
+  box-shadow: 6px 6px 0px #1a1122;
+  background-color: #ffffff;
+  padding: 8px;
+  display: block;
+  margin: 20px auto !important;
+  transform: translateX(-16px);
+}
+.references-page .references-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0 12px;
+  border: none !important;
+  margin: 16px 0;
+}
+
+.references-page .references-table th {
+  background-color: #1a1122;
+  color: #fca896;
+  padding: 14px;
+  font-size: 14px;
+  text-transform: uppercase;
+  text-align: left;
+  border: 4px solid #1a1122;
+  box-shadow: 0px 4px 0px #1a1122;
+}
+
+.references-page .references-table td {
+  padding: 16px;
+  font-size: 13px;
+  color: #1a1122;
+  font-weight: 900;
+  border: 4px solid #1a1122 !important;
+  box-shadow: 5px 5px 0px #1a1122;
+  transition: transform 0.1s ease;
+}
+
+.references-page .references-table tr:hover td {
+  transform: translate(-3px, -3px);
+  box-shadow: 8px 8px 0px #1a1122;
+}
+
+.references-page .references-table tr:nth-child(2) td { background-color: #fca896; }
+.references-page .references-table tr:nth-child(3) td { background-color: #ffffff; }
+.references-page .references-table tr:nth-child(4) td { background-color: #f6b531; }
+
+.references-page .feedback-form-container {
+  background-color: #ffffff;
+  border: 4px solid #1a1122;
+  box-shadow: 6px 6px 0px #1a1122;
+  padding: 24px;
+  margin-top: 24px;
+}
+
+.references-page .feedback-form-container h2 {
+  font-size: 18px;
+  color: #1a1122;
+  margin-bottom: 8px;
+}
+
+.references-page .section-desc {
+  font-size: 13px;
+  color: #555555;
+  margin-bottom: 16px;
+}
+
+.references-page .form-group {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.references-page .form-group label {
+  font-size: 14px;
+  color: #1a1122;
+  text-transform: uppercase;
+}
+
+.references-page .form-control {
+  width: 100%;
+  padding: 12px;
+  font-family: 'Courier New', monospace;
+  font-weight: 900;
+  border: 4px solid #1a1122;
+  background-color: #ffffff;
+  color: #1a1122;
+  outline: none;
+  box-shadow: inset 4px 4px 0px #e0e0e0;
+}
+
+.references-page textarea.form-control {
+  resize: vertical;
+}
+
+.references-page .radio-group, 
+.references-page .checkbox-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 6px;
+}
+
+.references-page .option-label {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 13px;
+  color: #1a1122;
+  cursor: pointer;
+}
+
+.references-page .option-label input {
+  width: 18px;
+  height: 18px;
+  accent-color: #1a1122;
+  cursor: pointer;
+}
+
+.references-page .form-actions {
+  display: flex;
+  gap: 16px;
+  margin-top: 24px;
+}
+
+.references-page .btn-submit {
+  background-color: #f6b531;
+  color: #1a1122;
+}
+
+.references-page .btn-clear {
+  background-color: #ffffff;
+  color: #1a1122;
+}
+
